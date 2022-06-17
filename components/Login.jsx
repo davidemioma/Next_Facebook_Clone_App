@@ -16,7 +16,7 @@ const Login = () => {
         className="bg-blue-500 py-4 px-5 text-white text-center rounded-full cursor-pointer"
         onClick={signIn}
       >
-        Login with facebook
+        Login with google
       </button>
     </div>
   );

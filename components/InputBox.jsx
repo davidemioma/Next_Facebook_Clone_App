@@ -79,10 +79,8 @@ const InputBox = () => {
     <div className="bg-white mt-6 p-4 rounded-2xl shadow-md text-gray-500 font-medium">
       <div className="flex items-center space-x-3 pb-3">
         <Image
-          className="rounded-full"
+          className="rounded-full w-10 h-10"
           src={session?.user.image}
-          width={40}
-          height={40}
           layout="fixed"
         />
 

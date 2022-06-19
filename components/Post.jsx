@@ -99,7 +99,7 @@ const Post = ({ id, name, message, email, timestamp, profileImg, image }) => {
         <div className="input-icon" onClick={likePost}>
           <ThumbUpIcon className={`h-4 ${hasLiked && "text-red-500"}`} />
 
-          <p className="text-xs sm:text-base">Like</p>
+          <p className="text-xs sm:text-base">{likes?.docs.length} Like</p>
         </div>
 
         <div
